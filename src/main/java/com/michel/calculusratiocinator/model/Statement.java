@@ -14,8 +14,8 @@ public class Statement {
     private String statement;
 
     public boolean evaluate() {
-        return "truth".equals(type) ? true :
-                "lie".equals(type) ? false :
+        return "verite".equals(type) ? true :
+                "mensonge".equals(type) ? false :
                         jenesaispas();
     }
 

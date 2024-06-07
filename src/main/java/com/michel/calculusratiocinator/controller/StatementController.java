@@ -22,14 +22,14 @@ public class StatementController {
         boolean result;
 
         switch (operation.toLowerCase()) {
-            case "and":
-                result = LogicalOperations.and(s1, s2);
+            case "et":
+                result = LogicalOperations.et(s1, s2);
                 break;
-            case "or":
-                result = LogicalOperations.or(s1, s2);
+            case "ou":
+                result = LogicalOperations.ou(s1, s2);
                 break;
-            case "implies":
-                result = LogicalOperations.implies(s1, s2);
+            case "donc":
+                result = LogicalOperations.donc(s1, s2);
                 break;
             default:
                 return "Invalid operation";
